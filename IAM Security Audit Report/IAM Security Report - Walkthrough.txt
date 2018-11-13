@@ -1,5 +1,4 @@
-Scenario : You are a developer at AIRL Inc. and your company has recently undergone a 3rd party security audit of your AWS account. When your security officer got the results of the audit they were shocked at how many security issues involving IAM users came up. After looking through the audit report you notice that there were a few users flagged as inactive who still had access, however you know that they no longer work at your company. You also notice most IAM users do not have MFA enabled for their login and of the users that have keys almost no one has rotated them in a reasonable amount of time. Your security officer has asked you to come up with a solution to this problem.
- 
+
 Goal: Use the IAM credentials report with lambda to perform a security audit of an AWS environment and email a security office a report of standing issues.
 
 Required Technologies
